@@ -1,0 +1,40 @@
+<!-- enhanced to-do app - main html file -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-do App</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- app header -->
+        <header class="app-header">
+            <h1>My Tasks</h1>
+            <p id="task-count">0 Tasks</p>
+        </header>
+
+        <!-- input section for new tasks -->
+        <section class="input-section">
+            <input type="text" id="task-input" placeholder="What needs to be done?">
+            <button id="add-btn">Add</button>
+        </section>
+
+        <!-- filter buttons -->
+        <section class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="active">Active</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+        </section>
+
+        <!-- task list container -->
+        <ul id="task-list" class="task-list"></ul>
+
+        <!-- clear completed button -->
+        <button id="clear-completed" class="clear-btn">Clear Completed</button>
+    </div>
+
+    <script src="script3.js"></script>
+</body>
+</html>

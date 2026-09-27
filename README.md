@@ -1,20 +1,17 @@
-# Portfolio_siwes
-This portfolio demonstrates the knowledge and skills acquired during my SIWES internship 2026
-
-# my profile page
-
-a simple responsive personal profile page built with html, css, and small javascript.
+# to-do list application
 
 ## features
-- responsive layout using css grid and flexbox
-- dark mode toggle
-- dynamic content loading
+- add, edit, and delete tasks
+- mark tasks as complete
+- filter tasks (all, active, completed)
+- data persists using localstorage
+- responsive design
 
 ## how to run
-1. open index.html in any web browser
-2. no installation needed
+1. open index3.html in a web browser
+2. start adding tasks
 
 ## technologies used
 - html5
-- css3 (grid, flexbox)
-- javascript (es6)
+- css3
+- javascript (es6+)
