@@ -1,20 +1,17 @@
-# Portfolio_siwes
-This portfolio demonstrates the knowledge and skills acquired during my SIWES internship 2026
+# interactive dashboard
 
-# my profile page
-
-a simple responsive personal profile page built with html, css, and small javascript.
+a single-page dashboard that fetches live data from multiple public apis and displays it in a clean interface.
 
 ## features
-- responsive layout using css grid and flexbox
-- dark mode toggle
-- dynamic content loading
+- fetches cryptocurrency prices from coingecko api
+- fetches random quotes from quote api
+- displays current date and time
+- responsive grid layout
 
 ## how to run
-1. open index.html in any web browser
-2. no installation needed
+1. open index.html in a web browser
+2. ensure you have an internet connection for api calls
 
-## technologies used
-- html5
-- css3 (grid, flexbox)
-- javascript (es6)
+## apis used
+- coingecko api (crypto prices)
+- quotable api (random quotes)
