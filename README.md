@@ -1,20 +1,18 @@
-# Portfolio_siwes
-This portfolio demonstrates the knowledge and skills acquired during my SIWES internship 2026
+# expense tracker cli
 
-# my profile page
-
-a simple responsive personal profile page built with html, css, and small javascript.
+a command-line expense tracking application written in python. it stores expenses persistently in a json file.
 
 ## features
-- responsive layout using css grid and flexbox
-- dark mode toggle
-- dynamic content loading
+- add new expenses with category and amount
+- view all expenses
+- calculate total spending
+- filter by category
+- data persists between sessions
 
 ## how to run
-1. open index.html in any web browser
-2. no installation needed
+1. ensure python 3 is installed
+2. open terminal in this folder
+3. run: python expense_tracker.py
 
-## technologies used
-- html5
-- css3 (grid, flexbox)
-- javascript (es6)
+## usage
+follow the on-screen menu to add, view, or manage expenses.
