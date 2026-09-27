@@ -1,20 +1,21 @@
-# Portfolio_siwes
-This portfolio demonstrates the knowledge and skills acquired during my SIWES internship 2026
+# algorithm solutions
 
-# my profile page
+## categories
+- searching algorithms
+- sorting algorithms
+- recursion problems
+- array and string problems
+- tree problems
+- graph problems
 
-a simple responsive personal profile page built with html, css, and small javascript.
-
-## features
-- responsive layout using css grid and flexbox
-- dark mode toggle
-- dynamic content loading
-
-## how to run
-1. open index.html in any web browser
-2. no installation needed
+## how to run tests
+1. ensure python 3 is installed
+2. open terminal in this folder
+3. run: python test_solutions.py
 
 ## technologies used
-- html5
-- css3 (grid, flexbox)
-- javascript (es6)
+- python 3
+- unittest (testing)
+
+## complexity reference
+every function has a docstring explaining its time and space complexity.
