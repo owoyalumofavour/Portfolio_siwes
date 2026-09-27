@@ -1,0 +1,44 @@
+<!-- interactive dashboard - main html file -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboard</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- dashboard header -->
+    <header class="dash-header">
+        <h1>My Live Dashboard</h1>
+        <!-- date and time display -->
+        <p id="datetime"></p>
+    </header>
+
+    <!-- dashboard grid container -->
+    <main class="dash-grid">
+        <!-- crypto prices card -->
+        <section class="dash-card">
+            <h2>Crypto Prices</h2>
+            <button id="refresh-crypto" class="refresh-btn">refresh</button>
+            <div id="crypto-data">loading...</div>
+        </section>
+
+        <!-- random quote card -->
+        <section class="dash-card">
+            <h2>Quote of the moment</h2>
+            <button id="refresh-quote" class="refresh-btn">new quote</button>
+            <div id="quote-data">loading...</div>
+        </section>
+
+        <!-- quick notes card -->
+        <section class="dash-card">
+            <h2>Quick Notes</h2>
+            <textarea id="notes" placeholder="type your notes here..."></textarea>
+            <button id="save-notes" class="refresh-btn">save</button>
+        </section>
+    </main>
+
+    <script src="script2.js"></script>
+</body>
+</html>
