@@ -1,0 +1,74 @@
+<!-- profile page - main html structure -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tags for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favour's Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- header section with name and toggle button -->
+    <header class="header">
+        <h1>Favour Owoyalumo</h1>
+        <p class="subtitle">Software Engineering Student</p>
+        <!-- button to toggle dark mode -->
+        <button id="theme-toggle" class="theme-btn">Toggle Dark Mode</button>
+    </header>
+
+    <!-- main content area -->
+    <main class="container">
+        <!-- about section -->
+        <section class="card">
+            <h2>About me</h2>
+            <p>I am a 300 level software engineering student at Bowen University, Iwo. 
+                I enjoy building web applications and solving algorithmic problems.</p>
+        </section>
+
+        <!-- skills section -->
+        <section class="card">
+            <h2>Skills</h2>
+            <ul>
+                <li>html, css, javascript</li>
+                <li>python</li>
+                <li>git and github</li>
+                <li>docker basics</li>
+            </ul>
+        </section>
+
+        <!-- projects section -->
+        <section class="card">
+            <h2>Projects</h2>
+            <p>Click the button below to load my project list</p>
+            <p></p>
+            <!-- button to dynamically load content -->
+            <button id="load-projects" class="load-btn" style="margin-top: 20px">Load Projects</button>
+            <div id="project-list">
+                <ul>
+                <li>Profile Page</li>
+                <li>Interactive Dashboard</li>
+                <li>Expense Tracker</li>
+                <li>Weather App</li>
+                <li>To-do App</li>
+            </ul>
+            </div>
+        </section>
+
+        <!-- contact section -->
+        <section class="card">
+            <h2>Contact</h2>
+            <p>Email: owoyalumofavour@gmail.com</p>
+            <p>Github: https://github.com/owoyalumofavour</p>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <p>Built during my SIWES internship - 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
